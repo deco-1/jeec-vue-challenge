@@ -3,6 +3,7 @@
         <h1 id="title">JEEC Challenge 24</h1>
         <DateTime />
     </div>
+    <!-- deco from workstation was here -->
     <div id="carousel__wrapper">
         <carousel :items-to-show="1" :wrap-around="true">
             <slide v-for="slide in 4" :key="slide">
